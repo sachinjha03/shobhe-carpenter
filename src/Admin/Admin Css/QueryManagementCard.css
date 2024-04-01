@@ -1,0 +1,21 @@
+.query-management-card{
+    min-width: 270px;
+    max-width:270px;
+    min-height: 300px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: black;
+    position: relative;
+}
+.query-management-card p{
+    font-size: 10px;
+}
+.query-management-card .btn-a{
+    position: absolute;
+    bottom: 5%;
+    width: 85%;
+}

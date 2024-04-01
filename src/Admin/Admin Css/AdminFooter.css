@@ -1,0 +1,10 @@
+.admin-footer{
+    background-color: black;
+    padding: 2rem 2rem;
+    text-align: center;
+    color: white;
+}
+.admin-footer a{
+    color: var(--orange);
+    text-decoration: underline;
+}

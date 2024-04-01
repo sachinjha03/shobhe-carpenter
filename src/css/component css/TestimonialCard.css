@@ -1,0 +1,32 @@
+.testimonial-card{
+    min-width: 250px;
+    max-width: 250px;
+    height: 270px;
+    background-color: var(--orange);
+    border-radius: 8px;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.testimonial-card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimonial-card .user-detail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.testimonial-card .user-detail p{
+    font-size: 10px;
+}
+.testimonial-card .user-feedback{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}

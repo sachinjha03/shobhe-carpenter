@@ -1,0 +1,99 @@
+.admin-dashboard{
+    width: 100%;
+    min-height: 100vh;
+    padding: 3rem 2rem;
+    /* padding-top: 5rem; */
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    color: white;
+}
+.admin-dashboard-landing-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    min-height: 100vh;
+}
+.admin-dashboard-landing-section p{
+    max-width: 70%;
+}
+.admin-dashboard-landing-section h1 span{
+    color: var(--orange);
+}
+.service-management-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.service-management-section-header{
+    text-align: center;
+}
+.service-management-section-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.service-management-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: black;
+    padding: 2rem 2rem;
+    border-radius: 6px;
+}
+.service-management-scrollable-section{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    height: 400px;
+    background-color: rgba(233, 233, 232, 0.236);
+    backdrop-filter: blur(8px);
+    border-radius: 6px;
+    padding: 1rem 1rem;
+    gap: 2rem;
+    overflow-y: auto;
+}
+.service-management-scrollable-section::-webkit-scrollbar{
+    display: none;
+}
+
+.user-query-management-section{
+    margin-top: 5rem;
+}
+.user-query-management-section-bottom{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    overflow-x: auto;
+}
+.user-query-management-section-bottom::-webkit-scrollbar{
+    display: none;
+}
+.product-management-form .row .input-field{
+    width: 100px;
+}
+.product-management-form .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:450px) {
+    .admin-dashboard-landing-section p{
+        font-size: 12px;
+    }
+    .admin-dashboard-landing-section{
+        min-height: 70vh;
+        height: auto;
+    }
+    /* .service-management-section{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+}

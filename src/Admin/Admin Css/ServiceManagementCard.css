@@ -1,0 +1,81 @@
+.service-management-card{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.service-management-card-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.service-management-card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.service-management-card-content p{
+    font-size: 8px;
+}
+.service-management-card-content .row .btn-a{
+    font-size: 10px;
+}
+.service-management-card-content .row .btn-a:nth-child(1){
+    background-color:rgb(19, 211, 237);
+}
+.service-management-card-content .row .btn-a:nth-child(2){
+    background-color:orangered;
+}
+.edit-screen{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    min-height: 100%;
+    backdrop-filter: blur(6px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+    background-color: rgba(0, 0, 0, 0.127);
+}
+.edit-service-form{
+    background-color: white;
+    color: black;
+    position: relative;
+}
+.edit-service-form .btn-a{
+    background-color: rgb(9, 136, 210);
+}
+.edit-product-form .close-icon ,.edit-service-form .close-icon{
+    color: red;
+    cursor: pointer;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+}
+
+.edit-product-form{
+    background-color: white;
+    color: black;
+    position: relative;
+}
+.edit-product-form .btn-a{
+    background-color: rgb(19, 211, 237);
+}
+
+@media screen and (max-width:420px) {
+    .service-management-card{
+        flex-direction: column;
+    }
+    .service-management-card-img{
+        width: 100%;
+    }
+    .service-management-card-img img{
+        width: 100%;
+    }
+    .edit-service-form .input-field{
+        width: 220px;
+    }
+}

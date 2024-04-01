@@ -1,0 +1,23 @@
+.testimonial-section{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.testimonial-section-header{
+    text-align: center;
+}
+.testimonial-section-header h2 span{
+    color: var(--orange);
+}
+.testimonial-section-bottom{
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+}
+.testimonial-section-bottom::-webkit-scrollbar{
+    display: none;
+}
+.testimonial-section > p{
+    text-align: center;
+}
