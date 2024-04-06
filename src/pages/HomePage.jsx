@@ -1,4 +1,5 @@
-import React from 'react'
+import React  , {useState} from 'react'
+import ReactImageZoom from 'react-image-zoom';
 import { Link } from 'react-router-dom'
 import "../css/page css/HomePage.css"
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -21,9 +22,18 @@ import gallery7 from "../images/g7.jpg"
 import gallery8 from "../images/g8.jpg"
 import gallery9 from "../images/g9.jpg"
 export default function HomePage() {
+    const [zoomedImage, setZoomedImage] = useState(null);
+
+  const handleZoom = (imageUrl) => {
+    setZoomedImage(imageUrl);
+  };
+
+  const handleCloseZoom = () => {
+    setZoomedImage(null);
+  };
   return (
     <>  
-        {window.scrollTo(0, 0)}
+        {/* {window.scrollTo(0, 0)} */}
         <div className="home-page-landing-section">
             <div className="home-page-landing-section-content">
                 <h3>Welcome To</h3>
@@ -80,7 +90,7 @@ export default function HomePage() {
                 <h2>Our Gallery</h2>
             </div>
             <div className="gallery-section-bottom">
-                <img src={gallery1} alt="" />
+                <img src={gallery1} alt="" onClick={() => handleZoom(gallery1)}/>
                 <img src={gallery2} alt="" />
                 <img src={gallery3} alt="" />
                 <img src={gallery4} alt="" />
@@ -91,6 +101,23 @@ export default function HomePage() {
                 <img src={gallery9} alt="" />
             </div>
         </div>
+            {zoomedImage && (
+        <div className="zoom-container">
+          <div className="zoom-overlay" onClick={handleCloseZoom}></div>
+          <div className="zoom-modal">
+            <span className="close-btn" onClick={handleCloseZoom}>Close</span>
+            <ReactImageZoom
+              {...{
+                width: 300,
+                height: 300,
+                zoomWidth: 500,
+                img: zoomedImage,
+                zoomPosition: 'original',
+              }}
+            />
+          </div>
+        </div>
+      )}
 
 
         <div className="expertise-section">

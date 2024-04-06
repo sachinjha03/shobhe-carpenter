@@ -80,6 +80,7 @@ export default function ContactPage() {
             </form>
             <img src={image} alt="" />
         </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28021.516318371934!2d77.19599567313239!3d28.609089130311457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2db961be393%3A0xf6c7ef5ee6dd10ae!2sIndia%20Gate%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1712395223868!5m2!1sen!2sin" width="100%" height="200px" style={{border:'none'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   )
 }

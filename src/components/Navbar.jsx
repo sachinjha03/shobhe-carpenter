@@ -3,6 +3,7 @@ import "../css/component css/Navbar.css"
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom'
 import CloseIcon from '@mui/icons-material/Close';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 export default function Navbar() {
   const [sideMenu , setSideMenu] = useState(false)
 
@@ -15,6 +16,8 @@ export default function Navbar() {
   }
   
   return (
+    <>
+    
     <div className='navbar'>
         <div className="navbar-left">
             <h3>Shobhe <span>Carpenters</span></h3>
@@ -36,5 +39,7 @@ export default function Navbar() {
           <CloseIcon onClick={hideSideMenu}/>
         </div>}
     </div>
+        <a href="https://wa.me/918742920558" target='_blank' className="whatsapp-icon-box link-a"><WhatsAppIcon className='whatsapp-icon'/></a>
+    </>
   )
 }

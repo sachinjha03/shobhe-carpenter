@@ -30,7 +30,7 @@ function App() {
   
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/shobhe-carpenter'>
         {!admin ? <Navbar/> : <AdminNavbar/>}
         <Routes>
           <Route exact path='/' element={admin ? <AdminDashboard/> : <HomePage/>} /> 
