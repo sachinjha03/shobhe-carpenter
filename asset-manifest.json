@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shobhe-carpenter/static/css/main.39bd131f.css",
-    "main.js": "/shobhe-carpenter/static/js/main.8ba426ec.js",
+    "main.css": "/shobhe-carpenter/static/css/main.0c9c3b36.css",
+    "main.js": "/shobhe-carpenter/static/js/main.4be3f95e.js",
     "static/media/product page bg.jpg": "/shobhe-carpenter/static/media/product page bg.3288d0ff43420eaab371.jpg",
     "static/media/homepage landing section image.jpg": "/shobhe-carpenter/static/media/homepage landing section image.9fd84d8cc0eae9be470c.jpg",
     "static/media/sofa.png": "/shobhe-carpenter/static/media/sofa.54134aec4e81f201baa1.png",
@@ -33,11 +33,11 @@
     "static/media/user5.jpg": "/shobhe-carpenter/static/media/user5.17479717803db75d0d3f.jpg",
     "static/media/care.png": "/shobhe-carpenter/static/media/care.af6c995de42f1a231d71.png",
     "index.html": "/shobhe-carpenter/index.html",
-    "main.39bd131f.css.map": "/shobhe-carpenter/static/css/main.39bd131f.css.map",
-    "main.8ba426ec.js.map": "/shobhe-carpenter/static/js/main.8ba426ec.js.map"
+    "main.0c9c3b36.css.map": "/shobhe-carpenter/static/css/main.0c9c3b36.css.map",
+    "main.4be3f95e.js.map": "/shobhe-carpenter/static/js/main.4be3f95e.js.map"
   },
   "entrypoints": [
-    "static/css/main.39bd131f.css",
-    "static/js/main.8ba426ec.js"
+    "static/css/main.0c9c3b36.css",
+    "static/js/main.4be3f95e.js"
   ]
 }
