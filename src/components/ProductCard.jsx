@@ -16,8 +16,8 @@ export default function ProductCard(props) {
                 <p>Size (in Inch)</p>
             </div>
         </div>
-            <a href="tel:8742920558" className="btn-a flex-btn link-a call-btn">Call Us</a>
-            <a href="https://wa.me/918742920558" className="btn-a flex-btn link-a whatsapp-btn">WhatsApp Us</a>
+            <a href="tel:9755107804" className="btn-a flex-btn link-a call-btn">Call Us</a>
+            <a href="https://wa.me/919755107804" className="btn-a flex-btn link-a whatsapp-btn">WhatsApp Us</a>
     </div>
   )
 }

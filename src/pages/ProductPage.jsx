@@ -30,7 +30,6 @@ export default function ProductPage() {
     }, [])
   return (
     <div className='product-page'>
-        {window.scrollTo(0, 0)}
         <div className="product-page-header">
             <div className="product-page-header-left">
                 <h3>Explore Our</h3>

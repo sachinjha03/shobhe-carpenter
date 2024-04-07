@@ -34,7 +34,6 @@ export default function LoginPage() {
     }
   return (
     <div className='login-page'>
-        {window.scrollTo(0, 0)}
       <form action="POST" className="login-form" onSubmit={handleSubmit}>
         <h2>Login</h2>
         <div className="input-box">

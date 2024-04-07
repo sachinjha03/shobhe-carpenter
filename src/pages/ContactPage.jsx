@@ -33,13 +33,12 @@ export default function ContactPage() {
   return (
     
     <div className='contact-page'>
-        {/* {window.scrollTo(0, 0)} */}
         <div className="contact-page-top-section">
             <div className="contact-method-card">
                 <div className="contact-method-card-content">
                     <AddIcCallIcon className='contact-icons'/>
                     <h3>Call Us</h3>
-                    <h4>+91 123 456 7890</h4>
+                    <h4>+91 975 510 7804</h4>
                 </div>
             </div>
             <div className="contact-method-card">

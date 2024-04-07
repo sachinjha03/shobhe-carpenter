@@ -33,7 +33,6 @@ export default function HomePage() {
   };
   return (
     <>  
-        {/* {window.scrollTo(0, 0)} */}
         <div className="home-page-landing-section">
             <div className="home-page-landing-section-content">
                 <h3>Welcome To</h3>
@@ -55,7 +54,7 @@ export default function HomePage() {
                     <Link to=""><FacebookIcon className='social-media-icons'/></Link>
                     <Link to=""><YouTubeIcon className='social-media-icons'/></Link>
                 </div>
-                <a href="https://wa.me/918742920558" target='_blank' className='link-a btn-a flex-btn'>Connect On <WhatsAppIcon/></a>
+                <a href="https://wa.me/919755107804" target='_blank' className='link-a btn-a flex-btn'>Connect On <WhatsAppIcon/></a>
             </div>
             <div className="about-section-right">
                 <img src={aboutImage} alt="" />
@@ -81,7 +80,7 @@ export default function HomePage() {
         <div className="offer-section">
             <h2>Get The <span>Best Deal</span></h2>
             <p>Contact Shobhe Carpenter to schedule a consultation. During this meeting, discuss your project in detail, including your vision, specific requirements, and budget constraints. </p>
-            <a href='tel:8742920558' className='link-a btn-a flex-btn'>Call Now <CallIcon/></a>
+            <a href='tel:9755107804' className='link-a btn-a flex-btn'>Call Now <CallIcon/></a>
         </div>
         <TestimonialSection/>
 
@@ -91,14 +90,14 @@ export default function HomePage() {
             </div>
             <div className="gallery-section-bottom">
                 <img src={gallery1} alt="" onClick={() => handleZoom(gallery1)}/>
-                <img src={gallery2} alt="" />
-                <img src={gallery3} alt="" />
-                <img src={gallery4} alt="" />
-                <img src={gallery5} alt="" />
-                <img src={gallery6} alt="" />
-                <img src={gallery7} alt="" />
-                <img src={gallery8} alt="" />
-                <img src={gallery9} alt="" />
+                <img src={gallery2} alt="" onClick={() => handleZoom(gallery2)}/>
+                <img src={gallery3} alt="" onClick={() => handleZoom(gallery3)}/>
+                <img src={gallery4} alt="" onClick={() => handleZoom(gallery4)}/>
+                <img src={gallery5} alt="" onClick={() => handleZoom(gallery5)}/>
+                <img src={gallery6} alt="" onClick={() => handleZoom(gallery6)}/>
+                <img src={gallery7} alt="" onClick={() => handleZoom(gallery7)}/>
+                <img src={gallery8} alt="" onClick={() => handleZoom(gallery8)}/>
+                <img src={gallery9} alt="" onClick={() => handleZoom(gallery9)}/>
             </div>
         </div>
             {zoomedImage && (

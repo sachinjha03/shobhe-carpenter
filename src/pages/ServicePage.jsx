@@ -26,7 +26,6 @@ export default function ServicePage() {
     } , [])
   return (
     <div className='service-page'>
-        {window.scrollTo(0, 0)}
         <div className="service-page-header-section">
             <div className="service-page-header-box">
                 <div className="service-page-header-box-left">
@@ -51,7 +50,7 @@ export default function ServicePage() {
                             <div className="service-card-content">
                                 <h3>{elem.name}</h3>
                                 <p>{elem.description}</p>
-                                <a href="tel:8742920558" className="btn-a link-a">Call Now</a>
+                                <a href="tel:9755107804" className="btn-a link-a">Call Now</a>
                             </div>
                             <div className="service-card-image">
                                 <img src={elem.image} alt="" />

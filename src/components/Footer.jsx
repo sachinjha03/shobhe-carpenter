@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="column" id="column3">
             <h3>Contact Details</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cumque quia, ad recusandae quam perspiciatis necessitatibus itaque unde accusamus tempore nobis, exercitationem consequuntur consequatur ab! Sed quibusdam assumenda minima dignissimos.</p>
-            <a href="tel:8742920558" className="btn-a">Call Now</a>
+            <a href="tel:9755107804" className="btn-a">Call Now</a>
         </div>
       </div>
       <div className="footer-bottom">

@@ -12,7 +12,7 @@ import { useEffect , useState , useLocation } from 'react';
 import { jwtDecode } from 'jwt-decode';
 import AdminNavbar from './Admin/Admin Components/AdminNavbar';
 import AdminFooter from './Admin/Admin Components/AdminFooter';
-
+import ScrollToTop from "./SrollToTop"
 
 function App() {
   const [admin, setAdmin] = useState(false)
@@ -31,6 +31,7 @@ function App() {
   return (
     <>
       <BrowserRouter basename='/shobhe-carpenter'>
+        <ScrollToTop/>
         {!admin ? <Navbar/> : <AdminNavbar/>}
         <Routes>
           <Route exact path='/' element={admin ? <AdminDashboard/> : <HomePage/>} /> 

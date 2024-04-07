@@ -39,7 +39,7 @@ export default function Navbar() {
           <CloseIcon onClick={hideSideMenu}/>
         </div>}
     </div>
-        <a href="https://wa.me/918742920558" target='_blank' className="whatsapp-icon-box link-a"><WhatsAppIcon className='whatsapp-icon'/></a>
+        <a href="https://wa.me/919755107804" target='_blank' className="whatsapp-icon-box link-a"><WhatsAppIcon className='whatsapp-icon'/></a>
     </>
   )
 }
