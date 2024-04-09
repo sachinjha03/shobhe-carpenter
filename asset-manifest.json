@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shobhe-carpenter/static/css/main.4e7ece84.css",
+    "main.css": "/shobhe-carpenter/static/css/main.74a20960.css",
     "main.js": "/shobhe-carpenter/static/js/main.f6fa900b.js",
     "static/media/product page bg.jpg": "/shobhe-carpenter/static/media/product page bg.3288d0ff43420eaab371.jpg",
     "static/media/homepage landing section image.jpg": "/shobhe-carpenter/static/media/homepage landing section image.9fd84d8cc0eae9be470c.jpg",
@@ -33,11 +33,11 @@
     "static/media/user5.jpg": "/shobhe-carpenter/static/media/user5.17479717803db75d0d3f.jpg",
     "static/media/care.png": "/shobhe-carpenter/static/media/care.af6c995de42f1a231d71.png",
     "index.html": "/shobhe-carpenter/index.html",
-    "main.4e7ece84.css.map": "/shobhe-carpenter/static/css/main.4e7ece84.css.map",
+    "main.74a20960.css.map": "/shobhe-carpenter/static/css/main.74a20960.css.map",
     "main.f6fa900b.js.map": "/shobhe-carpenter/static/js/main.f6fa900b.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e7ece84.css",
+    "static/css/main.74a20960.css",
     "static/js/main.f6fa900b.js"
   ]
 }
