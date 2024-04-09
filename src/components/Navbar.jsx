@@ -24,6 +24,7 @@ export default function Navbar() {
         </div>
         <div className="navbar-right">
             <Link to="/" className='link-a'>Home</Link>
+            <Link to="/gallery" className='link-a'>Gallery</Link>
             <Link to="/services" className='link-a'>Services</Link>
             <Link to="/products" className='link-a'>Products</Link>
             <Link to="/contact" className='link-a'>Contact</Link>
@@ -31,7 +32,8 @@ export default function Navbar() {
         </div>
         <MenuIcon className='menu-icon' onClick={displaySideMenu}/>
         {sideMenu && <div className="side-menu">
-          <Link to="/" className='link-a'>Home</Link>
+          <Link to="/" className='link-a' onClick={hideSideMenu}>Home</Link>
+          <Link to="/gallery" className='link-a'onClick={hideSideMenu}>Gallery</Link>
           <Link to="/services" className='link-a' onClick={hideSideMenu}>Services</Link>
           <Link to="/products" className='link-a' onClick={hideSideMenu}>Products</Link>
           <Link to="/contact" className='link-a' onClick={hideSideMenu}>Contact</Link>

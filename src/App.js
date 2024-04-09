@@ -13,6 +13,7 @@ import { jwtDecode } from 'jwt-decode';
 import AdminNavbar from './Admin/Admin Components/AdminNavbar';
 import AdminFooter from './Admin/Admin Components/AdminFooter';
 import ScrollToTop from "./SrollToTop"
+import GalleryPage from './pages/GalleryPage';
 
 function App() {
   const [admin, setAdmin] = useState(false)
@@ -35,6 +36,7 @@ function App() {
         {!admin ? <Navbar/> : <AdminNavbar/>}
         <Routes>
           <Route exact path='/' element={admin ? <AdminDashboard/> : <HomePage/>} /> 
+          <Route exact path='/gallery' element={admin ? <AdminDashboard/> : <GalleryPage/>} /> 
           <Route exact path='/services' element={admin ? <AdminDashboard/> :<ServicePage/>} /> 
           <Route exact path='/products' element={admin ? <AdminDashboard/> :<ProductPage/>} /> 
           <Route exact path='/contact' element={admin ? <AdminDashboard/> :<ContactPage/>} /> 
